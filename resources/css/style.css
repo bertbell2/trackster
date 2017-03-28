@@ -1,0 +1,104 @@
+/*
+  Custom styles for Trackster App
+*/
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  line-height: 2.5;
+}
+
+.header {
+  padding: 2.75rem 0;
+  background-color: rgb(35,2,63);
+}
+
+.brand {
+  font-family: 'Righteous', cursive;
+  font-size: 2.5rem;
+  color: rgb(255, 0, 171);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@keyframes brand-color {
+  0% {color: rgb(104,0,255)}
+  100% {color: rgb(35,2,63)}
+}
+
+.brand-animate {
+  animation: 0.25s infinite alternate brand-color;
+}
+
+.header input {
+  border-radius: 20px;
+  color: rgb(191,191,191);
+  margin-right: 0.5rem;
+}
+
+.header input:active {
+  color: rgb(74,74,74);
+}
+
+.header i {
+  border-radius: 20px;
+  background-color: rgb(255,102,204);
+  padding: 0.45rem 0;
+  text-align: center;
+}
+
+.header i:hover {
+  background-color: rgb(255, 0, 171);
+}
+
+#column-headers {
+  background-color: rgb(104,0,255);
+  color: rgb(255,255,255);
+  font-weight: 500;
+  display: flex;
+}
+
+.track-num {
+  display: flex;
+  align-self: center;
+}
+
+.track-num span {
+  align-self: center;
+}
+
+.bold-item {
+  font-weight: 900;
+}
+
+#song-list {
+  font-size: 1rem;
+  color: rgb(74,74,74);
+  background-color: white;
+}
+
+#song-list .track {
+  display: flex;
+  line-height: 1rem;
+  border-bottom: solid 1px rgb(204,204,204) ;
+  padding: 0.25rem 0;
+}
+
+.track:hover {
+  background-color: rgb(239, 237, 242) ;
+}
+
+.track div {
+  display: flex;
+  align-items: center;
+}
+
+#play-button i {
+  color: rgb(255, 0, 171);
+}
+
+#play-button i:hover {
+  color: rgb(255, 102, 204);
+}
