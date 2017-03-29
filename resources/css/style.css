@@ -29,7 +29,7 @@ body {
 }
 
 .brand-animate {
-  animation: 0.25s infinite alternate brand-color;
+  animation: 0.05s infinite alternate brand-color;
 }
 
 .header input {
@@ -58,6 +58,10 @@ body {
   color: rgb(255,255,255);
   font-weight: 500;
   display: flex;
+}
+
+#column-headers div {
+  cursor:pointer;
 }
 
 .track-num {
