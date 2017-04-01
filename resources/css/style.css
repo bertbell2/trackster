@@ -32,13 +32,13 @@ body {
   animation: 0.05s infinite alternate brand-color;
 }
 
-.header input {
+#search-input {
   border-radius: 20px;
   color: rgb(191,191,191);
   margin-right: 0.5rem;
 }
 
-.header input:active {
+#search-input:focus {
   color: rgb(74,74,74);
 }
 
@@ -105,4 +105,30 @@ body {
 
 #play-button i:hover {
   color: rgb(255, 102, 204);
+}
+
+.footer {
+  border-top: solid 1px rgb(204,204,204) ;
+  background-color: rgb(104,0,255);
+  color: rgb(255,255,255);
+  display: flex;
+}
+
+.notice {
+  text-align: right;
+}
+
+.spotify {
+  display: flex;
+  align-self: center;
+}
+
+.spotify a {
+  display: flex;
+  align-self: center;
+}
+
+.fa-spotify {
+  align-self: center;
+  color: rgb(255,255,255);
 }
